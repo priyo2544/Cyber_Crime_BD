@@ -62,11 +62,14 @@
     }
 
     .map-panel {
-      height: 600px;
-      width: 100%;
-      background: url('https://via.placeholder.com/600x300.png?text=Real-Time+IMEI+Tracking+Visualization') no-repeat center center;
-      background-size: cover;
-    }
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* স্ক্রিন অনুযায়ী হাইট অ্যাডজাস্ট হবে */
+  background: url('https://via.placeholder.com/600x300.png?text=Real-Time+IMEI+Tracking+Visualization') no-repeat center center;
+  background-size: contain; /* বা cover রাখতে পারেন */
+  background-repeat: no-repeat;
+}
+
 
     table {
       width: 100%;
