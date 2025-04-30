@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const passwordInput = document.getElementById("log-pass").value.trim();
 
         // 🔐 শুধু নির্দিষ্ট নাম্বার ও পাসওয়ার্ডে প্রবেশযোগ্য
-        const allowedNumber = "01612023490";
+        const allowedNumber = "1866153894";
         const allowedPassword = "Authan490";
 
         if (numberInput === allowedNumber && passwordInput === allowedPassword) {
